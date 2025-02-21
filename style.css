@@ -13,6 +13,15 @@ body {
   align-items: center;
 }
 
+.header h2 {
+  font-size: 24px;
+}
+
+.header h2,
+.text p {
+  color: #f9faf8;
+}
+
 .right-links ul {
   display: flex;
   list-style: none;
@@ -21,7 +30,8 @@ body {
 
 .right-links a {
   text-decoration: none;
-  color: black;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .description {
@@ -30,23 +40,31 @@ body {
 }
 
 .header,
-.description {
-  border: 1px solid #1f2937;
+.description,
+.footer {
+  background-color: #1f2937;
 }
 
 .text {
   padding-right: 100px;
 }
 
-.description h2 {
-  font-size: 2.5em;
+.text h2 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0;
 }
 
-.description p {
-  font-size: 20px;
+.text p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .description img {
+  background-color: gray;
+  color: #f9faf8;
   border: 1px solid gray;
   width: 1200px;
   height: 250px;
@@ -54,11 +72,13 @@ body {
 }
 
 .button {
-  width: 120px;
-  height: 35px;
-  border-radius: 5px;
-  font-size: 16px;
-  border: 1px solid #1f2937;
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 700;
 }
 
 .imgtitle {
@@ -69,8 +89,10 @@ body {
 .images {
   margin-top: 40px;
   display: flex;
-  justify-content: space-evenly;
-  padding: 0 475px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 450px;
+  flex-wrap: wrap;
 }
 
 .images img {
@@ -95,14 +117,16 @@ body {
 
 .quote {
   margin: 0 auto;
-  padding: 150px 500px;
+  padding: 125px 450px;
   margin: 100px 0;
-  border: 1px solid #e5e7eb;
+  background-color: #e5e7eb;
 }
 
 .quotetext {
-  font-size: 40px;
+  font-size: 36px;
   font-style: italic;
+  color: #1f2937;
+  font-weight: 300;
 }
 
 .sign {
@@ -112,17 +136,18 @@ body {
 }
 
 .signing {
-  border: 1px solid #3882f6;
+  background-color: #3882f6;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 300px;
   margin-bottom: 100px;
-  padding: 50px 200px;
+  padding: 50px 125px;
 }
 
 .sign-up h2,
 .sign-up p {
+  color: #f9faf8;
   padding: 0;
   margin: 0;
 }
@@ -135,7 +160,15 @@ body {
   font-size: 20px;
 }
 
+.signing button {
+  color: #f9faf8;
+  border-radius: 10px;
+  border: 2px solid #f9faf8;
+  font-size: 18px;
+}
+
 .footer {
+  color: #f9faf8;
   display: flex;
   justify-content: center;
   align-items: center;
